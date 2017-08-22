@@ -1,0 +1,240 @@
+body{
+  padding: 0px;
+  margin: 0px;
+  font-family: Helvetica;
+}
+
+.messaging {
+    position: absolute;
+    width: 800px;
+    height: 200px;
+    overflow: auto;
+    top: 1150px;
+    background-color: lightgrey;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#game_info {
+    width: 40%;
+}
+
+.my_panel {
+    width: 40%;
+}
+
+#messages {
+    overflow:scroll;
+    height: 90%;
+}
+
+.opponents_panel{
+    width: 50%;
+}
+
+#pid {
+    width: 30%;
+}
+
+#game {
+    overflow:scroll;
+    height: 90%;
+    width: 90%;
+}
+
+.MB{
+    margin: 20px;
+    width: 802px;
+    height: 626px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+    border: 0px;
+}
+.MBCell{
+  width: 50px;
+  height: 50px;
+  border: 1px solid;
+  border-color: white;
+  position: absolute;
+}
+.MBC1{
+  width: 12px;
+  height: 12px;
+  border-radius: 12px;
+  border: 0 solid;
+  background-color: red;
+}
+.MBC2{
+  width: 12px;
+  height: 12px;
+  border-radius: 12px;
+  border: 0 solid;
+  background-color: blue;
+}
+.MBC3{
+  width: 12px;
+  height: 12px;
+  border-radius: 12px;
+  border: 0 solid;
+  background-color: yellow;
+}
+.MBC4{
+  width: 12px;
+  height: 12px;
+  border-radius: 12px;
+  border: 0 solid;
+  background-color: green;
+}
+.MBR1{
+  width: 12px;
+  height: 12px;
+  border-radius: 12px;
+  border: 0 solid;
+  background-color: red;
+}
+.MBR2{
+  width: 12px;
+  height: 12px;
+  border-radius: 12px;
+  border: 0 solid;
+  background-color: blue;
+}
+.MBR3{
+  width: 12px;
+  height: 12px;
+  border-radius: 12px;
+  border: 0 solid;
+  background-color: yellow;
+}
+.MBR4{
+  width: 12px;
+  height: 12px;
+  border-radius: 12px;
+  border: 0 solid;
+  background-color: green;
+}
+.MBRank{
+  width: 143px;
+  height: 50px;
+  border: 1px solid;
+  border-color: black;
+  position: absolute;
+}
+
+.console{
+  position: absolute;
+  top: 1300px;
+}
+.playerStatPanel{
+  position: absolute;
+  top: 650px;
+  width:800px;;
+  height: 50px;
+  border-radius: 20px;
+  color: white;
+  background-color: dimgrey;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 50px;
+}
+.mainPanel{
+  position: absolute;
+  top: 730px;
+  width:800px;;
+  height: 400px;
+  border-radius: 20px;
+  color: white;
+  background-color: dimgrey;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+.selPanel{
+  width: 150px;
+  height: 250px;
+  margin: 12.5px;
+  background-color: white;
+}
+.disPanel{
+  width: 150px;
+  height: 250px;
+  margin: 12.5px;
+  background-color: white;
+  padding: 5px;
+}
+.mainPanelTb{
+  border: 0px solid;
+  padding: 10px;
+}
+.cardSelList{
+  width: 140px;
+  overflow: auto;
+  border: 0px;
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+  outline:none;
+  outline-color: none;
+  overflow-y: auto;
+  background-color: transparent;
+  color: white;
+}
+option{
+  background-color: none;
+  color: black;
+}
+option.select=select{
+  background-color: none;
+  color: black;
+}
+.panelTitle{
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+}
+.playButton{
+  border: 0px solid;
+  border-radius: 50px;
+  width: 140px;
+  height: 40px;
+  color: white;
+  background-color: rgba(53,223,99,0.7);
+  line-height: 40px;
+  text-align: center;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: -moz-none;
+  -o-user-select: none;
+  user-select: none;
+}
+.throwButton{
+  border: 0px solid;
+  border-radius: 50px;
+  width: 140px;
+  height: 40px;
+  color: white;
+  background-color: rgba(222,84,79,.7);
+  line-height: 40px;
+  text-align: center;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: -moz-none;
+  -o-user-select: none;
+  user-select: none;
+}
+.playButton:hover{
+  background-color: rgba(53,223,99,1);
+}
+.throwButton:hover{
+  background-color: rgba(222,84,79,1);
+}

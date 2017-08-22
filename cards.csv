@@ -1,0 +1,109 @@
+Card Name,Card Category,Card Type,"LearningCategory",Ranking Factor,Conversion Rate,Content Score,Spam Score,Special Effect,Card Quantity,Card Description
+Denial of Service Attack,Tactic Card,Attack,Content Creation,-2,-1,0,1,,2,Generate large amount of traffic to reduce page loading speed of competitor's site
+Spammy Link Attack,Tactic Card,Attack,Link Building,-2,-1,-1,1,,3,Buy low quality backlinks to competitors site to make their backlink profile spammy
+Pogo Sticking Attack,Tactic Card,Attack,Other,-1,0,-1,2,,2,"Searcher click on competitor's website, quickly go back to search engine and click another result"
+Click-through  Rate Attack,Tactic Card,Attack,Other,-3,0,0,1,,2,Write program to search for competitor's page but not clicking on it
+Negative Review Attack,Tactic Card,Attack,Other,0,-1,-2,2,,2,Write negative review and stories of the competitor
+Website Defacement Attack,Tactic Card,Attack,Other,-1,-2,-2,0,,3,Hack and change the content of the competitor's website
+Loss of Backlinks,Event Card,Bad Luck,Other,-3,0,0,0,,1,External websites have removed link to your site!
+Lose of Admission,Event Card,Bad Luck,Other,0,-2,0,0,Admission point -2,3,Students have withdrawn their applications!
+Outdated Content,Event Card,Bad Luck,Other,-2,-2,-3,0,,1,Your website's content is becoming outdated!
+Backlinks From Government,Event Card,Lucky,Other,5,2,5,0,,1,You have earned high quality backlinks from Government!
+Hot Topic Research,Event Card,Lucky,Other,4,2,4,0,,1,University's research become hot topic and generates a large number of page-views/backlinks to your site
+Social Media Engagement,Event Card,Lucky,Other,5,2,2,0,,1,Your social media post have generated many Likes and comments!
+Tuition Fee Discount,Event Card,Lucky,Other,0,2,0,0,,1,Offer 10% discount for 1st semester tuition fee
+Nothing Happen,Event Card,Lucky,Other,0,0,0,0,,64,No event in this turn
+Thin Content,Event Card,Mistake,Content Creation,0,0,0,2,,1,Pages with thin and little original content will be devalued by search engines
+Invisible Text,Event Card,Mistake,Content Creation,0,0,-1,1,,1,Text and background with same color to cheat search engines  for ranking those keywords
+Spelling Mistakes,Event Card,Mistake,Content Creation,0,0,-1,1,,1,Spelling mistakes is a signal that the website is of low quality
+Article Spinning,Event Card,Mistake,Content Creation,-1,0,-1,0,,1,"Copying others' content, rephrases them and use in your website"
+Self-Promotional Content,Event Card,Mistake,Content Creation,0,-1,-1,1,,1,Too much selling and self-promotional content  drives visitors away
+Duplicate Content,Event Card,Mistake,Content Creation,-1,0,-2,0,,1,Search engine cannot easily rank the pages with duplicated content in your site
+Poorly Written Content,Event Card,Mistake,Content Creation,0,0,-4,0,,1,Poorly written content with grammar mistakes  gives a bad impression on the visitors
+Too Much Advertisement,Event Card,Mistake,Landing Page Optimization,0,-1,0,0,,1,Displaying too much advertisement will drive visitors away
+Text Overload,Event Card,Mistake,Landing Page Optimization,0,-1,0,0,,1,Long paragraphs with too much text will drive visitors away
+Generic  Images,Event Card,Mistake,Landing Page Optimization,0,-1,0,0,,1,Generic or unrelated images cause confusion to visitors and show your lack of professionalism.
+Complex Navigation,Event Card,Mistake,Landing Page Optimization,0,-1,-1,0,,1,Complex website navigation drives visitors away
+Distracting Visuals,Event Card,Mistake,Landing Page Optimization,0,-2,-2,0,,1,Distracting visuals and flashing banners diverts reader's attention
+Automated Generated Links,Event Card,Mistake,Link Building,0,0,0,3,,1,Using automatic programs to post links in forums and wiki will be penalized by search engines
+100% Do-FollowæLinks,Event Card,Mistake,Link Building,0,0,0,2,,1, A natural backlink profile should have mix of do-follow and no-follow links
+Backlinks In Short Time,Event Card,Mistake,Link Building,0,0,0,1,,1,Acquiring too many backlinks in a short period is unnatural behaviour
+Low Link Diversity,Event Card,Mistake,Link Building,0,0,0,1,,1,Too many links from the same domain makes the backlink profile unnatural
+Link Farm,Event Card,Mistake,Link Building,-2,0,0,3,,1,Unrelated websites linking to each others to cheat  search engine for better ranking
+Link Exchange,Event Card,Mistake,Link Building,-2,0,0,2,,1,Excessive exchange of links between unrelated sites to cheat search engine for better ranking
+Low Quality Backlink,Event Card,Mistake,Link Building,-1,0,-1,1,,1,Search engine devalues websites with backlinks from low quality and spammy website
+Dynamic URL,Event Card,Mistake,On-page Optimization,-1,0,0,0,,1,Web-page generated based on user request do not get indexed as effectively as static URL
+Keyword Cannibalization,Event Card,Mistake,On-page Optimization,-1,0,0,0,,1,Multiple pages within a site compete for the same set of keywords
+Slow Pages,Event Card,Mistake,On-page Optimization,-1,0,0,0,,1,Slow page loading speed reduces user engagement
+Pop-ups  Ads,Event Card,Mistake,On-page Optimization,-1,0,0,0,,1,Pop-ups advertisement is annoying and sign of a low-quality and spammy site.
+Excessive Flash,Event Card,Mistake,On-page Optimization,-2,0,0,0,,1,Flash prevents  search engines from understanding the content of your site
+Too Much JavaScript,Event Card,Mistake,On-page Optimization,-2,0,0,0,,1,JavaScript makes it difficult for search engines to crawl and index your website
+Bad Neighbourhood,Event Card,Mistake,On-page Optimization,-3,0,0,2,,1,Outgoing links to low quality sites make your website looks spammy
+Excessive Outbound Links,Event Card,Mistake,On-page Optimization,-3,0,0,0,,1,Too many outbound links is annoyingæto visitors
+Broken Links,Event Card,Mistake,On-page Optimization,-1,0,-2,1,,1,Too many broken links indicates  the website is not built well or abandoned
+Keyword Stuffing,Event Card,Mistake,On-page Optimization,-1,0,-2,3,,1,Load web-pages with  keywords in an attempt to manipulate search engine ranking
+Mini-Game,Tactic Card,Normal,Content Creation,0,0,7,0,,1,Create mini-games for students to play and learn more about campus life
+Mini-Movie,Tactic Card,Normal,Content Creation,0,0,6,0,,1,Create mini-movies to engage  visitors
+Create Blog Post,Tactic Card,Normal,Content Creation,0,0,6,0,,1,Create blog posts with fresh contents to engage and interact with the visitor
+Organize Contest,Tactic Card,Normal,Content Creation,0,0,5,0,,1,Create contest with prizes and giveaways and attract people to link to your sites
+Create Landing Page,Tactic Card,Normal,Content Creation,0,0,5,0,,1,Showcase students' exchange opportunities and drive  visitors through long tailed search
+Create Landing Page,Tactic Card,Normal,Content Creation,0,0,5,0,,1,Showcase  students' achievement and drive visitors through long tailed search
+Create Landing Page,Tactic Card,Normal,Content Creation,0,0,4,0,,1,Showcase university's research achievement  and drive visitors through long tailed search
+Create Landing Page,Tactic Card,Normal,Content Creation,0,0,4,0,,1,Showcase outstanding alumni stories and drive visitors through long tailed search
+Multimedia,Tactic Card,Normal,Content Creation,0,0,4,0,,1,Multimedia grabs the attention of visitors
+Unique Content,Tactic Card,Normal,Content Creation,0,0,3,0,,1,Create unique content  not available elsewhere
+Contact Page,Tactic Card,Normal,Content Creation,0,2,3,0,,1,Contact page facilitates visitors to get in touch with the university
+Provide FAQ,Tactic Card,Normal,Content Creation,0,1,3,0,,1,Provide FAQ to answer common questions by students
+Link Bait,Tactic Card,Normal,Content Creation,0,0,2,0,,1,Content designed to attract attention and encourage visitors to link to the site
+Update Content,Tactic Card,Normal,Content Creation,0,0,2,0,,1,Update the outdated content in your site.
+A/B Testing,Tactic Card,Normal,Landing Page Optimization,0,4,3,0,,2,Test multiple web-page designs with users to maximize conversion
+Call To Action,Tactic Card,Normal,Landing Page Optimization,0,3,3,0,,2,Provide instructions  to encourage visitors to take actions
+Create Landing Page,Tactic Card,Normal,Landing Page Optimization,0,5,2,0,,2,Customized landing page better targets searchers from different locations
+High Quality Images,Tactic Card,Normal,Landing Page Optimization,0,2,2,0,,2,Provide  high quality images to make the page more attractive
+Improve Loading Speed,Tactic Card,Normal,Landing Page Optimization,0,3,1,0,,2,Eliminate unnecessary content to increase page loading speed
+Simple Page Design,Tactic Card,Normal,Landing Page Optimization,0,2,1,0,,2,Provide clear and simple landing page  to get visitor to take actions directly
+Buy High Quality Links,Tactic Card,Normal,Link Building,6,0,0,2,,1,Buy high quality backlinks to your site
+Reciprocal Links,Tactic Card,Normal,Link Building,5,0,0,3,,1,Large scale linking on mutual agreement creates unnatural linking profile
+Moderated Directory Submission,Tactic Card,Normal,Link Building,4,0,0,2,,1,Site submission to human-reviewed and trusted directory allow you to acquire very high quality.
+Outbound Links,Tactic Card,Normal,Link Building,4,0,0,3,,1,Linking out to authoritative sites increase your site's authority and relevancy
+Ask for Backlinks,Tactic Card,Normal,Link Building,3,0,0,1,,1,"Email friends, relatives, colleagues and partners to ask for backlinks"
+Free Directory Submission,Tactic Card,Normal,Link Building,3,0,0,2,,1,Backlinks from free directory is considered low quality
+Competitor Backlink Research,Tactic Card,Normal,Link Building,2,0,0,1,,1,Research competitor's backlinks and try to get them as well
+Pay for Cheap Backlinks,Tactic Card,Normal,Link Building,3,0,0,4,,1,Pay for backlinks coming from low quality and spammy websites
+Create Internal Links,Tactic Card,Normal,Link Building,2,0,0,1,,1,Internal linking within your site to pass authority to important pages
+Free Online Tools,Tactic Card,Normal,Link Earning,4,1,1,0,Use when CS > 18,2,Provide free tools online like special calculator to earn backlinks
+Infographics,Tactic Card,Normal,Link Earning,3,1,2,0,Use when CS > 13,2,Use image to represent data and ideas to attract sharing and earn backlinks
+Social Media Button,Tactic Card,Normal,Link Earning,3,1,2,0,Use when CS > 15,2,Social media button allows your audience to easily share your content and earn backlinks
+Look For Influencers,Tactic Card,Normal,Link Earning,6,1,1,0,Use when CS > 25,2,Influencers attract large number of followers to visit your website and earn backlinks
+Domain Diversity,Tactic Card,Normal,Link Earning,7,0,1,0,Use when CS > 30,2,Earning backlinks from diverse sources is a sign of of an authoritative site
+Broken Link Building,Tactic Card,Normal,Link Earning,5,1,2,0,Use when CS > 22,2,Contact authoritative websites with  broken links and recommends them to link to you
+Optimum  Keyword Density,Tactic Card,Normal,On-page Optimization,1,0,3,0,,1,Include keywords occasionally and naturally in web pages
+Research Audience's Language,Tactic Card,Normal,On-page optimization,1,0,2,0,,1,Research keyword used by audience and include in web-page
+Location Specific Keywords,Tactic Card,Normal,On-page optimization,5,0,0,0,,1,Research for location specific keyword to better target searchers in different locations
+Site-map Submission,Tactic Card,Normal,On-page Optimization,5,0,0,0,,1,Submit site-map to search engine facilitates the indexing of your website
+Keyword in Title Tag,Tactic Card,Normal,On-page Optimization,4,0,1,0,,1,Keywords in Title  tags send strongest relevancy signals for search engines
+Meta-Description,Tactic Card,Normal,On-page Optimization,4,0,0,0,,1,Compelling  search engine result snippet attracts searcher to visit your site and improves click-through rate
+Responsive Design,Tactic Card,Normal,On-page Optimization,4,0,0,0,,1,Website which shrinks or grows according to screen size is mobile friendly
+Search Engine Submission,Tactic Card,Normal,On-page Optimization,4,0,0,0,,1,Submit your site to search engine to make your site show up in search engine result pages
+Keyword in H1 Tag,Tactic Card,Normal,On-page Optimization,4,0,0,0,,1,Keywords in H1  tags send strongest relevancy signals for search engines
+Keyword Prominence,Tactic Card,Normal,On-page Optimization,3,0,0,0,,1,Keyword in the first 100-words of a page's content is more important in ranking
+Related Keywords,Tactic Card,Normal,On-page Optimization,3,0,0,0,,1,Synonyms and  related terms help search engine figure out what your page is about.
+Keyword in URL,Tactic Card,Normal,On-page Optimization,3,0,0,0,,1,Keyword rich URL  is a relevant signal to search engine
+Local Domain Name,Tactic Card,Normal,On-page Optimization,3,0,0,0,,1,Search engine gives preference to sites with country-specific domain name extension.
+Keyword in H2 Tag,Tactic Card,Normal,On-page Optimization,3,0,0,0,,1,Keywords in H2 and H3 tag sends a strong relevancy signal for search engines
+Competitor  Research,Tactic Card,Normal,On-page optimization,2,0,0,0,,1,Research keywords used by competitors to generate keywords and content ideas
+Keywords in Alt Tag,Tactic Card,Normal,On-page Optimization,2,0,0,0,,1,Keywords in Image's Alt tag help search engine understand what your image is about
+Relevant Outbound Links,Tactic Card,Normal,On-page Optimization,2,0,0,0,,1,Content of the pages you link help search engine understand what your page is about
+Reduce Image Size,Tactic Card,Normal,On-page optimization,2,0,0,0,,1,Optimize and resize and images to ensure quick loading time
+Image Filename,Tactic Card,Normal,On-page Optimization,2,0,0,0,,1,Keywords in image filenames help search engine understand what your image is about
+Canonical Tag,Tactic Card,Normal,On-page Optimization,2,0,0,0,,1,Help search engines understand the official version of duplicated contents in your site
+Media Coverage,Tactic Card,Special,Content Creation,0,0,0,0,Draw 4 cards,1,Post a TV interview video at website to improve credibility and raise public awareness of your brand
+Remove Irrelevant Keywords,Tactic Card,Special,Landing Page Optimization,0,0,0,-3,,2,Remove irrelevant keywords from page contents to avoid search engine penalty
+Clean Up Backlinks,Tactic Card,Special,Link Building,0,0,0,-6,,2,Contact website owners to remove the low quality  backlinks to your site to avoid search engine penalty
+Disavow Tool,Tactic Card,Special,Link Building,0,0,0,-9,,2,Ask search engines not to take account of low quality backlinks
+Social  Sharing,Tactic Card,Special,Link Earning,0,0,0,0,"If CS > 15, gain 1 admission point immediately",2,Create social media posts to drive followers to the website and earn backlinks
+Blogger Outreach,Tactic Card,Special,Link Earning,0,0,0,0,"If CS > 20, gain 2 admission point immediately",2,Ask bloggers with substantial followers  to write about you and link to your site
+Viral Social Media Campaigns,Tactic Card,Special,Link Earning,0,0,0,0,If CS > 30 gain 3 admission point immediately,2,Launch viral social media campaigns to generate a large number of visitors to your website and earn backlinks
+Charity Sponsorship,Tactic Card,Special,Link Earning,0,0,0,0,"Gain 1 RF for each 5 CS.e.g. you can get 5 RF if you have 27 CS.",1,Sponsor events for charity to earn backlink from their authoritative websites
+Reorganize Page Structure,Tactic Card,Special,On-page Optimization,0,0,0,0,Discard all hand cards and draw 6 cards,1,Reorganize your website become more user friendly
+ Powerful Server,Tactic Card,Special,On-page optimization,0,0,0,0,Draw 3 cards,1,Procurement of a powerful server to increase page loading speed

@@ -1,0 +1,403 @@
+<html>
+<head>
+    <title>SEO War</title>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/1.4.8/socket.io.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+    <link rel="stylesheet" type="text/css" href="cellstyle.css">
+</head>
+<body>
+
+  <center>
+  <div class='MB'>
+    <div class='MBCell' id='MB0'>
+      <div class='MBC1' id='MBC1'></div>
+      <div class='MBC2' id='MBC2'></div>
+      <div class='MBC3' id='MBC3'></div>
+      <div class='MBC4' id='MBC4'></div>
+    </div>
+    <div class='MBCell' id='MB1'></div>
+    <div class='MBCell' id='MB2'></div>
+    <div class='MBCell' id='MB3'></div>
+    <div class='MBCell' id='MB4'></div>
+    <div class='MBCell' id='MB5'></div>
+    <div class='MBCell' id='MB6'></div>
+    <div class='MBCell' id='MB7'></div>
+    <div class='MBCell' id='MB8'></div>
+    <div class='MBCell' id='MB9'></div>
+    <div class='MBCell' id='MB10'></div>
+    <div class='MBCell' id='MB11'></div>
+    <div class='MBCell' id='MB12'></div>
+    <div class='MBCell' id='MB13'></div>
+    <div class='MBCell' id='MB14'></div>
+    <div class='MBCell' id='MB15'></div>
+    <div class='MBCell' id='MB16'></div>
+    <div class='MBCell' id='MB17'></div>
+    <div class='MBCell' id='MB18'></div>
+    <div class='MBCell' id='MB19'></div>
+    <div class='MBCell' id='MB20'></div>
+    <div class='MBCell' id='MB21'></div>
+    <div class='MBCell' id='MB22'></div>
+    <div class='MBCell' id='MB23'></div>
+    <div class='MBCell' id='MB24'></div>
+    <div class='MBCell' id='MB25'></div>
+    <div class='MBCell' id='MB26'></div>
+    <div class='MBCell' id='MB27'></div>
+    <div class='MBCell' id='MB28'></div>
+    <div class='MBCell' id='MB29'></div>
+    <div class='MBCell' id='MB30'></div>
+    <div class='MBCell' id='MB31'></div>
+    <div class='MBCell' id='MB32'></div>
+    <div class='MBCell' id='MB33'></div>
+    <div class='MBCell' id='MB34'></div>
+    <div class='MBCell' id='MB35'></div>
+    <div class='MBCell' id='MB36'></div>
+    <div class='MBCell' id='MB37'></div>
+    <div class='MBCell' id='MB38'></div>
+    <div class='MBCell' id='MB39'></div>
+    <div class='MBCell' id='MB40'></div>
+    <div class='MBCell' id='MB41'></div>
+    <div class='MBCell' id='MB42'></div>
+    <div class='MBCell' id='MB43'></div>
+    <div class='MBCell' id='MB44'></div>
+    <div class='MBCell' id='MB45'></div>
+    <div class='MBCell' id='MB46'></div>
+    <div class='MBCell' id='MB47'></div>
+    <div class='MBCell' id='MB48'></div>
+    <div class='MBCell' id='MB49'></div>
+
+    <div class='MBRank' id='rank1'></div>
+    <div class='MBRank' id='rank2'></div>
+    <div class='MBRank' id='rank3'></div>
+    <div class='MBRank' id='rank4'></div>
+
+    <div class='MBRank' id='rank5'></div>
+    <div class='MBRank' id='rank6'></div>
+    <div class='MBRank' id='rank7'></div>
+    <div class='MBRank' id='rank8'></div>
+
+    <div class='MBRank' id='rank9'></div>
+    <div class='MBRank' id='rank10'></div>
+    <div class='MBRank' id='rank11'></div>
+    <div class='MBRank' id='rank12'></div>
+
+    <div class='MBRank' id='rank13'></div>
+    <div class='MBRank' id='rank14'></div>
+    <div class='MBRank' id='rank15'></div>
+    <div class='MBRank' id='rank16'>
+      <div class='MBR1' id='MBR1'></div>
+      <div class='MBR2' id='MBR2'></div>
+      <div class='MBR3' id='MBR3'></div>
+      <div class='MBR4' id='MBR4'></div>
+    </div>
+
+    <canvas id='MBC' width="800px" height="600px" style='border:1px solid; color:white;'>
+      Your browser does not support canvas element
+    </canvas>
+  </div>
+  </center>
+  <center>
+    <div class='playerStatPanel' id='playerStatPanel'></div>
+  </center>
+  <div class='mainPanel' id='mainPanel'>
+    <center>
+    <table class='mainPanelTb'>
+      <tr>
+        <td><center><span class='panelTitle'>Your Cards</span></center></td>
+        <td><center><span class='panelTitle'>Card Info</span></center></td>
+        <td><center><span class='panelTitle'>Players</span></center></td>
+        <td><center><span class='panelTitle'>Player Info</span></center></td>
+      </tr>
+      <tr>
+        <td>
+          <div class='selPanel' id='cardSelPanel'>
+          <select class='cardSelList' id='cardSelList' size='10'>
+          </select>
+        </div>
+        <br>
+        </td>
+        <td>
+          <div class='disPanel' id='cardDisPanel'></div>
+          <br>
+        </td>
+        <td>
+          <div class='selPanel' id='playerSelPanel'>
+          <select class='cardSelList' id='playerSelList' size="10">
+            <option value="p1" onclick='displayPlayer(this.value)'>Player 1</option>
+            <option value="p2" onclick='displayPlayer(this.value)'>Player 2</option>
+            <option value="p3" onclick='displayPlayer(this.value)'>Player 3</option>
+            <option value="p4" onclick='displayPlayer(this.value)'>Player 4</option>
+          </select>
+          </div>
+          <br>
+        </td>
+        <td>
+          <div class='disPanel' id='playerDisPanel'></div>
+          <br>
+        </td>
+      </tr>
+      <tr>
+        <td><center><div class='playButton' id='playCardButton'>Play Card</div></center></td>
+        <td><center><div class='playButton' id='endPlayButton'>End Play</div></center></td>
+        <td><center><div class='throwButton' id='throwCardButton'>Throw Card</div></center></td>
+        <td><center><div class='throwButton' id='endThrowButton'>End Throw</div></center></td>
+
+      </tr>
+    </table>
+  </center>
+  </div>
+<script src="boardCanvas.js"></script>
+<script src="interface.js"></script>
+<script>
+var pid = '';
+var cards = '';
+var events = '';
+var positions = '';
+
+$(document).ready(function() {
+
+	var socket = io.connect('http://127.0.0.1:5000');
+	socket.emit('join');
+
+	<!--socket.on('connect', function() {-->
+		<!--socket.send('User has connected!');-->
+	<!--});-->
+
+	socket.on('message', function(msg) {
+		$("#messages").append(msg+'<br>');
+	});
+
+	socket.on('set_player', function(msg) {
+		pid = msg;
+        $('#pid').append('pid='+pid);
+	});
+
+	socket.on('GameUpdate', function(json_string) {
+		console.log('GameUpdate');
+		data = JSON.parse(json_string);
+
+
+    console.log(data);
+    p1=data.players.p1;
+    p2=data.players.p2;
+    p3=data.players.p3;
+    p4=data.players.p4;
+    updateAdmi(p1,p2,p3,p4);
+    updatePlayerStat(data,pid);
+    updateCardPanel(data,pid,cards);
+    updateRank(p1,p2,p3,p4);
+
+    console.log("getting data:"+data.players.p1.admission);
+
+		$('#game').append('<pre>'+JSON.stringify(data, null, 2)+'</pre>')
+		$('#game').append('############################################')
+
+		$('#game_info').empty()
+		$('#game_info').append('data["won"]='+data["won"].toString()+'<br>')
+		$('#game_info').append('data["round_queue"]='+data["round_queue"].toString()+'<br>')
+		$('#game_info').append('data["player_stage"]='+data["player_stage"].toString()+'<br>')
+		$('#game_info').append('data["round"]='+data["round"].toString()+'<br>')
+
+        my_data = data["players"][pid]
+		$('#my_cards').empty();
+		$('#my_cards').append(my_data.cards.toString())
+		$('#my_stat').empty();
+		$('#my_stat').append(JSON.stringify(data["players"][pid], null, 2));
+
+		$('#opponents').empty();
+		for (i = 0; i < Object.keys(data["players"]).length; i++) {
+		    p = Object.keys(data["players"])[i]
+		    if (p != pid) {
+                $('#opponents').append(p+'<br>');
+                $('#opponents').append('<td>'+JSON.stringify(data["players"][p], null, 2)+'</td>');
+		    }
+        }
+
+        new_history = data["history"]
+		for (l of new_history) {
+            $("#messages").append(JSON.stringify(l)+'<br>');
+        }
+
+        if (data["won"] != false) {
+		    alert(data["won"].toString()+' WON !')
+		}
+	});
+
+	socket.on('cards', function(data) {
+	    console.log('cards');
+	    card_from_json = JSON.parse(data)
+	    cards = card_from_json
+	    console.log(cards)
+	    <!--$('#opponents_panel').append('<pre>'+JSON.stringify(data, null, 2)+'</pre>');-->
+	});
+
+	socket.on('events', function(data) {
+		console.log('events');
+		events_from_json = JSON.parse(data)
+	    events = events_from_json
+	    console.log(events)
+	});
+
+	socket.on('positions', function(data) {
+		console.log('positions');
+		positions_from_json = JSON.parse(data)
+	    positions = positions_from_json
+	    console.log(positions)
+	});
+
+	socket.on('sys_message', function(data) {
+		messages_from_json = JSON.parse(data)
+	    messages = messages_from_json
+
+	    console.log(messages)
+	    <!--for each messages append to #messages-->
+	});
+
+	$('#sendbutton').on('click', function() {
+		socket.send(pid+': '+$('#myMessage').val());
+		$('#myMessage').val('');
+	});
+
+	$('#play_card').on('click', function() {
+	    a = 'play'
+	    c = $('#card').val();
+	    t = $('#target').val();
+	});
+
+	$('#end_play').on('click', function() {
+	    a = 'end_play'
+		socket.emit('move', pid, a);
+	});
+
+	$('#throw_card').on('click', function() {
+	    a = 'throw'
+	    c = $('#card').val();
+		socket.emit('move', pid, a, c);
+		$('#card').val('');
+	});
+
+	$('#end_throw').on('click', function() {
+	    a = 'end_throw'
+		socket.emit('move', pid, a);
+	});
+
+
+
+  $('#playCardButton').on('click', function() {
+	    a = 'play'
+	    c = $('#cardSelList').val();
+      console.log(c);
+	    t = $('#playerSelList').val();
+      console.log(t);
+      if (cards[c].type == "attack"){
+        socket.emit('move', pid, a, c, t);
+        //$('#card').val('');
+        //$('#target').val('');
+        $('#playerDisPanel').html(" ");
+        $('#cardDisPanel').html(" ");
+        $('#cardSelList').prop('selected', false);
+        $('#playerSelList').prop('selected', false);
+      }
+      else{
+        socket.emit('move', pid, a, c, '');
+        //$('#card').val('');
+        //$('#target').val('');
+      }
+	});
+
+	$('#endPlayButton').on('click', function() {
+	    a = 'end_play'
+		socket.emit('move', pid, a);
+	});
+
+	$('#throwCardButton').on('click', function() {
+	    a = 'throw'
+	    c = $('#cardSelList').val();
+      console.log(c);
+		socket.emit('move', pid, a, c);
+    $('#cardSelList').prop('selected', false);
+    $('#playerSelList').prop('selected', false);
+		//$('#card').val('');
+	});
+
+	$('#endThrowButton').on('click', function() {
+	    a = 'end_throw'
+		socket.emit('move', pid, a);
+	});
+	$('#reset').on('click', function() {
+		socket.emit('reset');
+		setTimeout(function(){
+            location.reload(true);
+        }, 1500);
+
+	});
+
+	window.onbeforeunload = function(event) {
+    /*
+	    <!--event.returnValue = "abc";-->
+        <!--stay on page still emit-->
+
+        <!--refresh won't trigger-->
+    */
+        socket.emit('quit', pid)
+    };
+});
+///
+
+</script>
+<center>
+<div class="messaging">
+    <div id="messages">System/User messages here:<br></div>
+    <input type="text" id="myMessage" autofocus>
+    <button id="sendbutton">Send</button>
+</div>
+<center>
+<div class='console'>
+<button id="reset">reset server connections: will refresh the page after 1.5 seconds</button><br>
+<div id="pid"></div>
+
+
+<!--
+<br>
+<div id="game_info">
+</div>
+
+<br>
+<div class="my_panel">
+    my_panel:<br>
+    <div id="my_stat">(my stat here)</div>
+    <div id="my_cards">(my cards here)</div>
+
+
+    card: <input type="text" id="card"><br>
+
+    target: <input type="text" id="target"><br>
+
+    <div class="play">
+    <button id="play_card">Play</button><br>
+    <button id="end_play">end play</button><br>
+    </div>
+
+    <div class="throw">
+    <button id="throw_card">Throw</button><br>
+    <button id="end_throw">end throw</button><br>
+    </div>
+</div>
+
+<br>
+<div class="opponents_panel">
+    opponents_panel:<br>
+    <table id="opponents">
+    </table>
+
+</div>
+
+<br>
+<div id="game">
+    Game JSON here:<br>
+</div>
+</div>
+-->
+</body>
+</html>
